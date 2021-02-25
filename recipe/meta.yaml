@@ -1,4 +1,4 @@
-{% set version = '0.6-9' %}
+{% set version = "0.6-9.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Rmpi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Rmpi/Rmpi_{{ version }}.tar.gz
-  sha256: b2e1eac3e56f6b26c7ce744b29d8994ab6507ac88df64ebbb5af439414651ee6
+  sha256: 99e02a955935040bf0834d44d1dc10a3794c8260fd072d3aff3e15ab249e0ac9
 
 build:
-  merge_build_host: True  # [win]
-  skip: True  # [win]
-  number: 1002
+  merge_build_host: true  # [win]
+  skip: true  # [win]
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
@@ -50,10 +50,9 @@ test:
 about:
   home: http://fisher.stats.uwo.ca/faculty/yu/Rmpi
   license: GPL (>= 2)
-  summary: An interface (wrapper) to MPI. It also  provides interactive R manager and worker
-    environment.
+  summary: An interface (wrapper) to MPI. It also  provides interactive R manager and worker environment.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
