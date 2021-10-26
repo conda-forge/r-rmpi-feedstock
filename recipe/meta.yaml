@@ -1,4 +1,4 @@
-{% set version = "0.6-9.1" %}
+{% set version = "0.6-9.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Rmpi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Rmpi/Rmpi_{{ version }}.tar.gz
-  sha256: 99e02a955935040bf0834d44d1dc10a3794c8260fd072d3aff3e15ab249e0ac9
+  sha256: 358ac1af97402e676f209261a231f36a35e60f0301edf8ca53dac11af3c3bd1a
 
 build:
   merge_build_host: true  # [win]
