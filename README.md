@@ -3,7 +3,7 @@ About r-rmpi
 
 Home: http://fisher.stats.uwo.ca/faculty/yu/Rmpi
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmpi-feedstock/blob/main/LICENSE.txt)
 
