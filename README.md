@@ -3,6 +3,7 @@ About r-rmpi-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rmpi-feedstock/blob/main/LICENSE.txt)
 
+
 About r-rmpi
 ------------
 
@@ -11,6 +12,7 @@ Home: http://fisher.stats.uwo.ca/faculty/yu/Rmpi
 Package license: GPL-2.0-or-later
 
 Summary: An interface (wrapper) to MPI. It also  provides interactive R manager and worker environment.
+
 About r-rmpi
 ------------
 
@@ -146,7 +148,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
