@@ -1,4 +1,4 @@
-{% set version = "0.7-3.4" %}
+{% set version = "0.7-4.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/Rmpi_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/Rmpi/Rmpi_{{ version }}.tar.gz
-  sha256: 12096db54761e8b3337955b4f3ddb785d1ded2a1cce0b58e50e63e0bc659d464
+  sha256: dc99cea036fd75bcb2b97fba89a0a656f300868d59b56ce37b47653c12c07a18
 
 build:
   # Checking windows to see if it passes. Uncomment the line if it fails.
